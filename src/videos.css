@@ -1,0 +1,28 @@
+.videos{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 10%;
+    grid-row-gap: 50px;
+    padding-left: 7%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    .video{
+        img{
+            width: 300px;
+            height: 150px;
+            border-radius: 20px;
+        }
+        .date{
+            font-size: x-small;
+            color: rgb(170, 170, 170);
+        }
+        .user{
+            font-size: small;
+            margin: 10px 0px;
+        }
+        h3{
+            font-size: medium;
+            font-weight: 600;
+        }
+    }
+}
